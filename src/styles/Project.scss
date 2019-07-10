@@ -1,0 +1,28 @@
+.projectArea-div{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+
+.project-div {
+  width: 370px;
+  height: 555px;
+  border: 1px black solid;
+  margin: 50px;
+
+  h2 {
+    @include text(20px, 700);
+    margin: 10px;
+  }
+
+  img {
+    max-height: 165px;
+    max-width: 98%;
+    border: 1px black solid;
+    overflow: scroll;
+  }
+
+  .project-description-p {
+    height: 200px;
+    margin: 10px;
+  }
+}
