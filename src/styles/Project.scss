@@ -24,14 +24,20 @@
   }
 
   .project-description-p {
-    height: 200px;
+    height: 170px;
     margin: 10px;
   }
   
   a {
+    @include text(16px, 400);
+    color: black;
     text-decoration: none;
+    margin: 5px;
     &:visited {
       color: black;
+    }
+    &:hover {
+      color: $hover;
     }
   }
 }
