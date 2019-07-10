@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+  h1{
+    @include text(30px, 700);
+  }
+
+  p{
+    @include text(16px, 400);
+    line-height: 1.5em;
+  }
+}
+
+
+
+
