@@ -8,9 +8,10 @@
   height: 555px;
   border: 1px black solid;
   margin: 50px;
+  border-radius: 3px;
 
   h2 {
-    @include text(20px, 700);
+    @include text(30px, 700);
     margin: 10px;
   }
 
@@ -19,10 +20,24 @@
     max-width: 98%;
     border: 1px black solid;
     overflow: scroll;
+    border-radius: 3px;
   }
 
   .project-description-p {
-    height: 200px;
+    height: 170px;
     margin: 10px;
+  }
+  
+  a {
+    @include text(16px, 400);
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      color: $hover;
+    }
   }
 }
