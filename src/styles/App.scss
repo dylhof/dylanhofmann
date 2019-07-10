@@ -2,7 +2,8 @@
   text-align: center;
 
   h1{
-    @include text(30px, 700);
+    @include text(50px, 700);
+    margin: 20px;
   }
 
   p{
