@@ -1,0 +1,17 @@
+.Header-div {
+  box-shadow: 1px 3px 4px #00000059;
+
+  h1{
+    @include text(50px, 700);
+    padding: 20px;
+  }
+
+  h2{
+    @include text(26px, 700);
+    padding: 0 0 10px 0;
+  }
+
+  p {
+    padding: 0 0 15px 0;
+  }
+}
