@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ProjectArea from '../ProjectArea/ProjectArea';
-import {Header} from '../Header/Header';
+import { Header } from '../Header/Header';
 
 
 class App extends Component{
