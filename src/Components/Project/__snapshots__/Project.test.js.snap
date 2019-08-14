@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project component should match the snapshot 1`] = `
+<div
+  className="project-div"
+>
+  <h2>
+    mockproject
+  </h2>
+  <img
+    alt="mockproject"
+    src="www.thumbnail.com"
+  />
+  <p
+    className="project-description-p"
+  >
+    this is a mock project
+  </p>
+  <p>
+    gitHub link: 
+  </p>
+  <a
+    href="www.mockgit.com"
+    target="blank"
+  >
+    www.mockgit.com
+  </a>
+  <p>
+    Live link: 
+  </p>
+  <a
+    href="www.mockproject.com"
+    target="blank"
+  >
+    www.mockproject.com
+  </a>
+</div>
+`;
