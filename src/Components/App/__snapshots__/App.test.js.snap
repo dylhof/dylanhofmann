@@ -5,6 +5,7 @@ exports[`App App component should match the snapshot 1`] = `
   className="App"
 >
   <Header />
+  <AboutMe />
   <ProjectArea />
 </div>
 `;
