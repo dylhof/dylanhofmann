@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectArea component should match the snapshot 1`] = `
+<div
+  className="projectArea-div"
+>
+  <Project
+    description="Taste of Taco Tuesday is an application that allows users to spice up their lives with a fantastic array of taco recipes. Choose recipes from baselayers, mixins, seasonings, condiments and shells to make the perfect taco for your next taco Tuesday!"
+    git="https://github.com/dylhof/TacoTuesday"
+    key="1"
+    thumbnail="https://i.imgur.com/ioePyU3.png"
+    title="Taco Tuesday"
+    url="https://tasteoftacotuesday.herokuapp.com/"
+  />
+  <Project
+    description="Looking for color inspiration for your next website or project? Colorations is a full stack application that quickly generates color palettes, which users can tailor and save for future reference."
+    git="https://github.com/dylhof/Colorations"
+    key="1"
+    thumbnail="https://i.imgur.com/N5xrLTY.png"
+    title="Colorations"
+    url="https://colorations.herokuapp.com/"
+  />
+  <Project
+    description="Trapper Keeper is an application that allows users to keep track of their to-dos by using a clean and stylish UI. The application can add and delete entire lists, as well as individual list items. All lists and their respective list data are stored and saved to a local back-end server."
+    git="https://github.com/dylhof/trapper-keeper-ui"
+    key="1"
+    thumbnail="https://i.imgur.com/Gj7t3tf.png"
+    title="Trapper Keeper"
+    url=""
+  />
+  <Project
+    description="Movie Tracker allows movie buffs to browse the most popular movies out now and sign in to track their favories. They can click on any of the movies to see additional details for that movie and can see all of their tracked favorites in one place. This app was built using React, Redux and Router."
+    git="https://github.com/dylhof/movie-tracker-ui"
+    key="1"
+    thumbnail="https://i.imgur.com/44zWWkq.jpg"
+    title="Movie Tracker"
+    url=""
+  />
+  <Project
+    description="Looking for a place to collect your family stories, photos and recipes? Family secrets allows you to add these family secrets into a central locacion."
+    git="https://github.com/dylhof/family-secrets"
+    key="1"
+    thumbnail="https://i.imgur.com/1EnQKHc.png"
+    title="Family Secrets"
+    url="https://family-secrets.herokuapp.com/"
+  />
+</div>
+`;
