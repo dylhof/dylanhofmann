@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectArea from '../ProjectArea/ProjectArea';
-import { Header } from '../Header/Header';
+import {Header} from '../Header/Header';
+import {AboutMe} from '../AboutMe/AboutMe';
 
 
 class App extends Component{
@@ -9,6 +10,7 @@ class App extends Component{
     return (
       <div className="App">
         <Header/>
+        <AboutMe/>
         <ProjectArea/>
       </div>
     );
