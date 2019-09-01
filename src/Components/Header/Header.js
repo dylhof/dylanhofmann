@@ -9,14 +9,15 @@ export const Header = () => {
         <img src={Dylan} alt='Dylan'/>
       </div>
       <div className='Header-div-info'>
-        <h1>Dylan Hofmann</h1>
-        <h2>Front End Software Developer</h2>
-        <p>dylan.hofmann@gmail.com</p>
+        <Link to='/' className='Header-Link'>
+          <h1>Dylan Hofmann</h1>
+          <h2>Front End Software Developer</h2>
+        </Link>
       </div>
-      <div>
+      <div className='Header-div-contact'>
         <Link to='/contactme'>
           <button>
-            contact Dylan
+            Contact Me
           </button>
         </Link>
       </div>
