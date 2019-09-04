@@ -1,0 +1,8 @@
+.AboutMe-section{
+  width: 50%;
+  margin: 20px auto;
+  
+  h2{
+    @include text(26px, 700);
+  }
+}

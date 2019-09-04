@@ -4,14 +4,24 @@ exports[`Header component should match the snapshot 1`] = `
 <header
   className="Header-div"
 >
-  <h1>
-    Dylan Hofmann
-  </h1>
-  <h2>
-    Front End Software Developer
-  </h2>
-  <p>
-    dylan.hofmann@gmail.com
-  </p>
+  <div>
+    <img
+      alt="Dylan"
+      src="dylan.jpg"
+    />
+  </div>
+  <div
+    className="Header-div-info"
+  >
+    <h1>
+      Dylan Hofmann
+    </h1>
+    <h2>
+      Front End Software Developer
+    </h2>
+    <p>
+      dylan.hofmann@gmail.com
+    </p>
+  </div>
 </header>
 `;

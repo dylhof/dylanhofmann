@@ -1,12 +1,12 @@
 import React from 'react';
-import { Header } from './Header';
+import { AboutMe } from './AboutMe';
 import { shallow } from 'enzyme';
 
-describe('Header component', () => {
+describe('AboutMe Component', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Header/>)
+    wrapper = shallow(<AboutMe/>)
   });
 
   it('should match the snapshot', () => {
