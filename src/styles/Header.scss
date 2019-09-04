@@ -15,13 +15,48 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
+    width: 40%;
   }
 
+  .Header-div-contact {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin-right: 20px;
+      @include text(25px, 700);
+      border-radius: 5px;
+
+      &:hover{
+        cursor: pointer;
+        background-color: #1398aa;
+      }
+
+      &:active{
+        cursor: grabbing;
+        background-color: #1ed9f1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .Header-Link {
+    text-decoration: none;
+    color: black;
+    &:visited {
+      color: black;
+    }
+  }
   h1,
-  h2,
-  p {
+  h2 {
     padding: 0 0 10px 0;
     margin: 0;
+    text-decoration: none;
   }
 
   h1{

@@ -2,16 +2,16 @@ import React from 'react';
 
 export const ContactMe = () => {
   return (
-    <div>
+    <div className='ContactMe-div'>
       <h2>Contact Me!</h2>
-      <form action='https://formspree.io/dylan.hofmann@gmail.com' method='POST'>
-        <label>Name</label>
-        <input type='text' name='name'/>
-        <label>Email</label>
-        <input type='email' name='_replyto'/>
+      <form action='https://formspree.io/dylan.hofmann@gmail.com' method='POST' className='ContactMe-form'>
+        <label>Name:</label>
+        <input type='text' name='name' required/>
+        <label>Email:</label>
+        <input type='email' name='_replyto' required/>
         <label>What do you want to tell me?</label>
-        <input type='text-field' name='message'/>
-        <input type='submit' value='Send'/>
+        <textarea type='text-field' name='message' className='ContactMe-input-message' required/>
+        <input type='submit' value='Send' className='ContactMe-input-submit'/>
       </form>
     </div>
     )
