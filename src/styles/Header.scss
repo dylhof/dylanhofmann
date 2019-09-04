@@ -21,14 +21,27 @@
   .Header-div-contact {
     width: 60%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
     button {
       margin-right: 20px;
-      @include text(30px, 700);
+      @include text(25px, 700);
       border-radius: 5px;
 
+      &:hover{
+        cursor: pointer;
+        background-color: #1398aa;
+      }
+
+      &:active{
+        cursor: grabbing;
+        background-color: #1ed9f1;
+      }
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 
